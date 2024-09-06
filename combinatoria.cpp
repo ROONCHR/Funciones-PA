@@ -34,7 +34,7 @@ int main(){
 	}
 	
 	
-	cout<<"Resultado: "<<combinatoria(n,k);
+	cout<<"Resultado de la combinatoria de C("<<n<<" , "<<k<<")"": "<<combinatoria(n,k);
 	return 0;
 }
 
