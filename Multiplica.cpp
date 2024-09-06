@@ -5,7 +5,7 @@ using namespace std;
 
 int multiplicacion(int m, int n){
 	int resp;
-	if(n==0){
+	if(n==0||m==0){
 		
 		resp= 0;
 		
@@ -16,11 +16,14 @@ int multiplicacion(int m, int n){
 }
 int main(){
 	int x, y;
+	cout<<"INTRODUZA LOS VALORES POSITIVOS:"<<endl;
 	cout<<"multiplicando: ";
 	cin>>x;
 	cout<<endl<<"multiplicador: ";
 	cin>>y;
 	cout<<endl;
+	
+	
 	
 	cout<<"Resultado: "<<multiplicacion(x,y);
 	return 0;

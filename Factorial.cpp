@@ -19,6 +19,12 @@ int main(){
 	cout<<"INTRODUZA EL NUMERO A EVALUAR SU FACTORIAL:"<<endl<<"NUMERO:  ";
 	cin>>x;
 	
+	while(x<0){
+		cout<<"intente nuevamente: ";
+		cin>>x;
+	}
+	
+	
 	cout<<"Resultado: "<<factorial(x);
 	return 0;
 }

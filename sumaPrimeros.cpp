@@ -17,9 +17,9 @@ int sumaPrimeros(int n){
 int main(){
 	int n;
 	cout<<"INTRODUZA LOS n PRIMEROS NUMEROS A SUMAR:"<<endl<<"n:  ";
-	cin>>n;
+		cin>>n;
 	
-	if(n<0){
+	while(n<0){
 		cout<<"intente nuevamente: ";
 		cin>>n;
 	}
